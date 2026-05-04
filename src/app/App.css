@@ -1,0 +1,227 @@
+body {
+    background-color: #f1f5f9;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.house {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    background-color: #1b1425;
+    color: #e5e7eb;
+    padding: 2rem 1rem;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.container > div:not(.house) {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.imgBox {
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.vorynthia a {
+    color: #7F77DD;
+    text-decoration: none;
+}
+
+.vorynthia a:hover {
+    color: #5F57B8;
+}
+
+.caelundra a {
+    color: #888780;
+    text-decoration: none;
+}
+
+.caelundra a:hover {
+    color: #A2A19B;
+}
+
+.seraphex a {
+    color: #D85A30;
+    text-decoration: none;
+}
+
+.seraphex a:hover {
+    color: #E67855;
+}
+
+.thalomire a {
+    color: #378ADD;
+    text-decoration: none;
+}
+
+.thalomire a:hover {
+    color: #5AA2E6;
+}
+
+.zyventus a {
+    color: #BA7517;
+    text-decoration: none;
+}
+
+.zyventus a:hover {
+    color: #D1933A;
+}
+
+.ecliphra a {
+    color: #D4537E;
+    text-decoration: none;
+}
+
+.ecliphra a:hover {
+    color: #E2739A;
+}
+
+.morrindael a {
+    color: #5F5E5A;
+    text-decoration: none;
+}
+
+.morrindael a:hover {
+    color: #7A7975;
+}
+
+.lucenthos a {
+    color: #1D9E75;
+    text-decoration: none;
+}
+
+.lucenthos a:hover {
+    color: #39B892;
+}
+
+.vesperix a {
+    color: #534AB7;
+    text-decoration: none;
+}
+
+.vesperix a:hover {
+    color: #726BCE;
+}
+
+.arunveil a {
+    color: #993C1D;
+    text-decoration: none;
+}
+
+.arunveil a:hover {
+    color: #B2573A;
+}
+
+.nyxalor a {
+    color: #444441;
+    text-decoration: none;
+}
+
+.nyxalor a:hover {
+    color: #62625F;
+}
+
+.quelindra a {
+    color: #3C3489;
+    text-decoration: none;
+}
+
+.quelindra a:hover {
+    color: #5B53A8;
+}
+
+.dravethon a {
+    color: #639922;
+    text-decoration: none;
+}
+
+.dravethon a:hover {
+    color: #7BBE2F;
+}
+
+.vorynthia {
+    background-color: #14121f;
+}
+
+.caelundra {
+    background-color: #1a1a18;
+    grid-column: 1/-1;
+}
+
+.caelundra.card {
+    width: 100%;
+}
+
+.seraphex {
+    background-color: #2a1712;
+}
+
+.thalomire {
+    background-color: #121b2a;
+}
+
+.zyventus {
+    background-color: #241a0f;
+}
+
+.ecliphra {
+    background-color: #2a141c;
+}
+
+.morrindael {
+    background-color: #181816;
+}
+
+.lucenthos {
+    background-color: #0f1f1a;
+}
+
+.vesperix {
+    background-color: #14122a;
+}
+
+.arunveil {
+    background-color: #1b1425;
+}
+
+.nyxalor {
+    background-color: #1a1a22;
+}
+
+.quelindra {
+    background-color: #15122a;
+}
+
+.dravethon {
+    background-color: #0f172a;
+}
